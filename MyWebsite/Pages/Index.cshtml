@@ -3,8 +3,13 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<section id="home">
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Testing @DateTime.Now</p>
+    </div>
+</section>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Testing @DateTime.Now</p>
-</div>
+@await Html.PartialAsync("About.cshtml")
+@await Html.PartialAsync("Projects.cshtml",Model.Projects)
+@await Html.PartialAsync("Contact.cshtml")

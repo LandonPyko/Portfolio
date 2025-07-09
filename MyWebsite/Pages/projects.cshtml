@@ -1,7 +1,8 @@
-@page
-@model MyWebsite.Pages.ProjectsModel
+@using MyWebsite.Models
 
-@foreach (var project in Model.Projects)
+@model IEnumerable<ProjectCard>
+<section id="projects">
+@foreach (var project in Model)
 {
     <div class="project-card">
         <h2>@project.Title</h2>
@@ -9,3 +10,4 @@
         <a href="@project.Link" target="_blank">View Project</a>
     </div>
 }
+</section>
