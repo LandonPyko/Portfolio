@@ -1,6 +1,11 @@
 @page
-@Model MyWebsite.Models.ProjectCard
-<div>
-    <h1>Projects Page!</h1>
-    <p>Testing Testing Testing Testing</p>
-</div>
+@model MyWebsite.Pages.ProjectsModel
+
+@foreach (var project in Model.Projects)
+{
+    <div class="project-card">
+        <h2>@project.Title</h2>
+        <p>@project.Description</p>
+        <a href="@project.Link" target="_blank">View Project</a>
+    </div>
+}

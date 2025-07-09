@@ -94,3 +94,4 @@ C:\Users\m\Desktop\Portfolio\MyWebsite\obj\Debug\net9.0\refint\MyWebsite.dll
 C:\Users\m\Desktop\Portfolio\MyWebsite\obj\Debug\net9.0\MyWebsite.pdb
 C:\Users\m\Desktop\Portfolio\MyWebsite\obj\Debug\net9.0\MyWebsite.genruntimeconfig.cache
 C:\Users\m\Desktop\Portfolio\MyWebsite\obj\Debug\net9.0\ref\MyWebsite.dll
+C:\Users\m\Desktop\Portfolio\MyWebsite\obj\Debug\net9.0\MyWebsite.sourcelink.json
